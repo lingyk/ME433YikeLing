@@ -16326,7 +16326,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <gate name="G$1" symbol="PIC32MX270F256D" x="2.54" y="5.08"/>
 </gates>
 <devices>
-<device name="" package="QFN44ML8X8">
+<device name="" package="TQFP44">
 <connects>
 <connect gate="G$1" pin="1.B9" pad="1"/>
 <connect gate="G$1" pin="10.VUSB3V3" pad="10"/>
@@ -16373,6 +16373,9 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="8.D+/B10" pad="8"/>
 <connect gate="G$1" pin="9.D-/B11" pad="9"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:20793/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
